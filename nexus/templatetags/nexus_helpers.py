@@ -8,11 +8,6 @@ from nexus.modules import NexusModule
 register = template.Library()
 
 
-def nexus_media_prefix():
-    return conf.MEDIA_PREFIX.rstrip('/')
-register.simple_tag(nexus_media_prefix)
-
-
 def nexus_version():
     return nexus.VERSION
 register.simple_tag(nexus_version)
