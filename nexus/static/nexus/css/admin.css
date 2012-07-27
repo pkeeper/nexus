@@ -352,13 +352,13 @@ fieldset.monospace textarea {
 }
 
 .inline-group .tabular tr.has_original td {
-    padding-top: 2em;
+    padding-top: 1em;
 }
 
 .inline-group .tabular tr td.original {
     padding: 2px 0 0 0;
     width: 0;
-    _position: relative;
+    display:block;
 }
 
 .inline-group .tabular th.original {
@@ -375,7 +375,6 @@ fieldset.monospace textarea {
     font-size: 9px;
     font-weight: bold;
     color: #666;
-    _width: 700px;
 }
 
 .inline-group ul.tools {
